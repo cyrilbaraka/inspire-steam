@@ -41,7 +41,25 @@ cleaned_amount_deposited =amount_deposited.replace("KES","")
 
 print("Cleaned amount added:" ,cleaned_amount_deposited)
 
-final_balance=int(cleaned_balance)+int(cleaned_amount_deposited)
+final_balance=int(cleaned_balance)+float(cleaned_amount_deposited)
+
+print(f"The final balance is:",final_balance)
+
+print(f"{capitalized} CONFIRMED You have Received {amount_deposited} from James Onyango New Balance is {final_balance}")
+
+#ASSIGNMENT
+balance="12.02KES"
+amount_deposited ="40KES"
+
+cleaned_balance =balance.replace("KES","")
+
+print("Cleaned balance: ",cleaned_balance)
+
+cleaned_amount_deposited =amount_deposited.replace("KES","")
+
+print("Cleaned amount added:" ,cleaned_amount_deposited)
+
+final_balance=float(cleaned_balance)+float(cleaned_amount_deposited)
 
 print(f"The final balance is:",final_balance)
 
