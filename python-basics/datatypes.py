@@ -1,6 +1,7 @@
 #Name : Cyril Baraka 
-#Date : 11/02/2026
-#Program to add two numbers
+#Date : 13/02/2026
+#Program to run for loop
+
 first_number =12
 second_number =24
 

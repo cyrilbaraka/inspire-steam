@@ -65,7 +65,3 @@ print(f"The final balance is:",final_balance)
 
 print(f"{capitalized} CONFIRMED You have Received {amount_deposited} from James Onyango New Balance is {final_balance}")
 
-
-
-
-
